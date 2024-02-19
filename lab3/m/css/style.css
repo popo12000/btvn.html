@@ -1,0 +1,42 @@
+#tet-holiday {
+    font-family: 'grape nut', 'cursive';
+    background-color:gray ;
+    /* padding: 15px; */
+    /* display flex; */
+     display: flex;
+     /* justify content: space-evenly; */
+     flex-direction:column-reverse
+     /* flex-direction:row; => theo chieu ngang: ; */
+    /* flex-flow: row nowrap; */
+   }
+   .item {
+       width: 800px;
+       height: 100px;
+       background-color: green  ;
+       font-size: 50px;
+       color: rgb(102, 167, 224);
+     }
+
+
+
+     #câu-đối {
+      font-family: 'grape nut', 'cursive';
+      background-color: yellow ;
+      /* padding: 15px; */
+      /* display flex; */
+       display: flex ;
+       /* justify content: space-evenly; */
+       flex-direction:column-reverse ; 
+       /* flex-direction:row; => theo chieu doc ;  */
+      /* flex-flow: row nowrap; */
+     }
+     .item {
+         width: 800px;
+         height: 100px;
+         background-color: cyan ;
+         font-size: 50px;
+         color: rgb(102, 167, 224);
+       }
+
+
+

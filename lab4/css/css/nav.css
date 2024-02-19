@@ -1,0 +1,45 @@
+nav{
+    height: 50px;
+    background-color: mediumaquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .nav-list{
+display: flex;
+justify-content: space-between;
+padding: 5px;
+margin: 0;
+list-style: none;
+width: 100%;
+}
+
+.nav-list li {
+    display: block;
+    padding: 10px 20px;
+}
+
+.nav-list li:hover{
+    background-color: whitesmoke;
+}
+.nav-list button img{
+  width: 40px;
+  height: 40px;
+}
+
+.nav-list li button{
+   padding: 0;
+   margin-top: -10px;
+   width: 40px;
+   height: 40px;
+   border: none;
+   background-color: transparent;
+}
+#ham-button:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#ham-button img:hover{
+    
+}
